@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1193187-701b-4bc2-9823-b9080d52a85c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/vendor.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/root.scss" afterPath="$PROJECT_DIR$/app/styles/root.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <ignored path="landing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +38,8 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9666667" vertical-offset="2312" max-vertical-offset="11358">
-              <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
+              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -90,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6262976" vertical-offset="7144" max-vertical-offset="7812">
+            <state vertical-scroll-proportion="0.0" vertical-offset="7144" max-vertical-offset="7812">
               <caret line="417" column="10" selection-start-line="417" selection-start-column="10" selection-end-line="417" selection-end-column="10" />
               <folding />
             </state>
@@ -122,14 +117,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1962">
-              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.32667875" vertical-offset="432" max-vertical-offset="1962">
+              <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
               <folding>
-                <marker date="1414849052697" expanded="true" signature="1111:1264" placeholder="..." />
-                <marker date="1414849052697" expanded="true" signature="1204:1232" placeholder="..." />
+                <marker date="1414849198141" expanded="true" signature="1111:1264" placeholder="..." />
+                <marker date="1414849198141" expanded="true" signature="1204:1232" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -173,11 +168,11 @@
         <option value="$PROJECT_DIR$/app/scripts/controllers/about-us.js" />
         <option value="$PROJECT_DIR$/app/bower_components/bootstrap/dist/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/root.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/dist/styles/main.css" />
         <option value="$PROJECT_DIR$/app/styles/root.scss" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -625,8 +620,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1962">
           <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
           <folding>
-            <marker date="1414849052697" expanded="true" signature="1111:1264" placeholder="..." />
-            <marker date="1414849052697" expanded="true" signature="1204:1232" placeholder="..." />
+            <marker date="1414849198141" expanded="true" signature="1111:1264" placeholder="..." />
+            <marker date="1414849198141" expanded="true" signature="1204:1232" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -860,21 +855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1962">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-          <folding>
-            <marker date="1414849052697" expanded="true" signature="1111:1264" placeholder="..." />
-            <marker date="1414849052697" expanded="true" signature="1204:1232" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9666667" vertical-offset="2312" max-vertical-offset="11358">
-          <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -889,9 +873,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6262976" vertical-offset="7144" max-vertical-offset="7812">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7144" max-vertical-offset="7812">
           <caret line="417" column="10" selection-start-line="417" selection-start-column="10" selection-end-line="417" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32667875" vertical-offset="432" max-vertical-offset="1962">
+          <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
+          <folding>
+            <marker date="1414849198141" expanded="true" signature="1111:1264" placeholder="..." />
+            <marker date="1414849198141" expanded="true" signature="1204:1232" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
