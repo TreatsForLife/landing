@@ -54,7 +54,6 @@ angular.module('landingApp')
         //loading screen
         $scope.logoAnimationComplete = false;
         $scope.animateSplashScreen = function () {
-            debugger;
             $rootScope.runAnimation('.not-online-logo-animation', 1700, 48, 266, function(){
                 $timeout(function(){
                     $scope.logoAnimationComplete = true;

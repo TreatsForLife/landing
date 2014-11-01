@@ -11,22 +11,21 @@ angular.module('landingApp')
         $scope.placeLogo = function (iterations) {
             if (typeof iterations == 'undefined') iterations = 5;
             $timeout(function () {
-                if ($('.welcome-app-explained').length > 0) {
-                    $rootScope.windowHeight = $(window).height();
-                    $rootScope.windowWidth = $(window).width();
+                $rootScope.windowHeight = $(window).height();
+                $rootScope.windowWidth = $(window).width();
 
-                    $scope.logoSpace = parseInt($rootScope.windowHeight - $('.bottom-wrapper').height()) - 20;
-                    $scope.logoHeight = parseInt((($scope.logoSpace - 80) > 370) ? 370 : ($scope.logoSpace - 80));
+                $scope.logoSpace = parseInt($rootScope.windowHeight - $('.bottom-wrapper').height()) - 20;
+                $scope.logoHeight = parseInt((($scope.logoSpace - 80) > 370) ? 370 : ($scope.logoSpace - 80));
 
-                    $scope.logoWidth = parseInt($scope.logoHeight / 370 * 266);
-                    $scope.logoHeight = 370 * $scope.logoWidth / 266 ;
-                    $scope.logoMargin = parseInt(($scope.logoSpace - $scope.logoHeight) / 2);
+                $scope.logoWidth = parseInt($scope.logoHeight / 370 * 266);
+                $scope.logoHeight = 370 * $scope.logoWidth / 266 ;
+                $scope.logoMargin = parseInt(($scope.logoSpace - $scope.logoHeight) / 2);
 
-                    $scope.logoSpacePX = $scope.logoSpace + 'px';
-                    $scope.logoHeightPX = $scope.logoHeight + 'px';
-                    $scope.logoMarginPX = $scope.logoMargin +  'px auto';
-                    $scope.logoWidthPX = $scope.logoWidth + 'px';
-                }
+                $scope.logoSpacePX = $scope.logoSpace + 'px';
+                $scope.logoHeightPX = $scope.logoHeight + 'px';
+                $scope.logoMarginPX = $scope.logoMargin +  'px auto';
+                $scope.logoWidthPX = $scope.logoWidth + 'px';
+
                 if (iterations > 0) {
                     $timeout(function () {
                         $scope.placeLogo(iterations - 1);
