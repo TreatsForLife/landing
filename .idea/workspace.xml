@@ -88,8 +88,8 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5431472" vertical-offset="7221" max-vertical-offset="7812">
-              <caret line="419" column="12" selection-start-line="419" selection-start-column="12" selection-end-line="419" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.51269037" vertical-offset="7221" max-vertical-offset="7812">
+              <caret line="418" column="8" selection-start-line="418" selection-start-column="8" selection-end-line="418" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -123,8 +123,8 @@
             <state vertical-scroll-proportion="-10.666667" vertical-offset="648" max-vertical-offset="1962">
               <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
               <folding>
-                <marker date="1414848233845" expanded="true" signature="1109:1262" placeholder="..." />
-                <marker date="1414848233845" expanded="true" signature="1202:1230" placeholder="..." />
+                <marker date="1414848355845" expanded="true" signature="1111:1264" placeholder="..." />
+                <marker date="1414848355845" expanded="true" signature="1204:1232" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -824,16 +824,16 @@
         <state vertical-scroll-proportion="-10.666667" vertical-offset="648" max-vertical-offset="1962">
           <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
           <folding>
-            <marker date="1414848233845" expanded="true" signature="1109:1262" placeholder="..." />
-            <marker date="1414848233845" expanded="true" signature="1202:1230" placeholder="..." />
+            <marker date="1414848355845" expanded="true" signature="1111:1264" placeholder="..." />
+            <marker date="1414848355845" expanded="true" signature="1204:1232" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5431472" vertical-offset="7221" max-vertical-offset="7812">
-          <caret line="419" column="12" selection-start-line="419" selection-start-column="12" selection-end-line="419" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.51269037" vertical-offset="7221" max-vertical-offset="7812">
+          <caret line="418" column="8" selection-start-line="418" selection-start-column="8" selection-end-line="418" selection-end-column="8" />
           <folding />
         </state>
       </provider>
