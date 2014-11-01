@@ -106,12 +106,12 @@ body, html {
   .not-online-logo{
     height:370px;
     width:266px;
-    background-image: url('../images/animated-logo-loop.gif');
+    background-image: image-url('animated-logo-loop.gif');
     background-repeat: no-repeat;
     margin:auto;
   }
   .not-online-logo-animation{
-    background-image: url('../images/animated-logo.png');
+    background-image: image-url('animated-logo.png');
   }
 
   &.aside{
