@@ -7,6 +7,7 @@ angular.module('landingApp')
 
         $rootScope.bodyClass = 'welcome';
         $rootScope.bodyBg = 'welcome';
+        $rootScope.curRoute = 'welcome';
 
         $scope.placeLogo = function (iterations) {
             if (typeof iterations == 'undefined') iterations = 5;

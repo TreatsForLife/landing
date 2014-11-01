@@ -80,12 +80,7 @@ angular.module('landingApp')
             $rootScope.online = false;
         }
         function checkNetworkStatus(){
-            $http.get(Consts.api_root + 'ping').success(function(){
-                $interval.cancel(offlineInterval);
-                onOnline();
-            }).error(function(){
-                onOffline();
-            });
+            onOnline();
         }
         checkNetworkStatus();
         onOffline();
