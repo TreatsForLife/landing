@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1193187-701b-4bc2-9823-b9080d52a85c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/animated-adopt-button.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/animated-adopt-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/animated-like-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/animated-love-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/animated-share-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/animated-thankyou.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/buy_button.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/buy_button_row.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/buy_first.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/buy_last.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/default_owner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/ionic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/pet_female.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/pet_male.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/placeholder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/yeoman.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/root.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/root.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/root.scss" afterPath="$PROJECT_DIR$/app/styles/root.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome.html" afterPath="$PROJECT_DIR$/app/views/welcome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/welcome.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/welcome.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/welcome.scss" afterPath="$PROJECT_DIR$/app/styles/welcome.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="landing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,8 +39,8 @@
       <file leaf-file-name="root.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/root.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.407408" vertical-offset="2005" max-vertical-offset="6660">
-              <caret line="130" column="16" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
+            <state vertical-scroll-proportion="-9.074074" vertical-offset="2005" max-vertical-offset="6660">
+              <caret line="125" column="13" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -134,11 +111,11 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38297874" vertical-offset="486" max-vertical-offset="1962">
-              <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.522686" vertical-offset="648" max-vertical-offset="1962">
+              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
               <folding>
-                <marker date="1414848125593" expanded="true" signature="1109:1262" placeholder="..." />
-                <marker date="1414848125593" expanded="true" signature="1202:1230" placeholder="..." />
+                <marker date="1414848233845" expanded="true" signature="1109:1262" placeholder="..." />
+                <marker date="1414848233845" expanded="true" signature="1202:1230" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -845,19 +822,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/root.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.407408" vertical-offset="2005" max-vertical-offset="6660">
-          <caret line="130" column="16" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
+        <state vertical-scroll-proportion="-9.074074" vertical-offset="2005" max-vertical-offset="6660">
+          <caret line="125" column="13" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38297874" vertical-offset="486" max-vertical-offset="1962">
-          <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.522686" vertical-offset="648" max-vertical-offset="1962">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
           <folding>
-            <marker date="1414848125593" expanded="true" signature="1109:1262" placeholder="..." />
-            <marker date="1414848125593" expanded="true" signature="1202:1230" placeholder="..." />
+            <marker date="1414848233845" expanded="true" signature="1109:1262" placeholder="..." />
+            <marker date="1414848233845" expanded="true" signature="1202:1230" placeholder="..." />
           </folding>
         </state>
       </provider>

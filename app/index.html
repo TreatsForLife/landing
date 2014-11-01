@@ -38,8 +38,8 @@
     <div class="not-online-logo not-online-logo-animation" ng-show="!logoAnimationComplete"></div>
 
     <div class="download" ng-class="{active: logoAnimationComplete}" ng-cloak>
-        <a href="" target="_blank"><img src="images/appstore.png"/></a>
-        <a href="" target="_blank"><img src="images/googleplay.png"/></a>
+        <a href="https://play.google.com/store/apps/details?id=org.treatsforlife.app&hl=en" target="_blank"><img src="images/appstore.png"/></a>
+        <a href="https://play.google.com/store/apps/details?id=org.treatsforlife.app&hl=en" target="_blank"><img src="images/googleplay.png"/></a>
     </div>
 </div>
 
@@ -49,7 +49,7 @@
         <div class="container-tabs">
             <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" ng-class="{active: (curRoute=='welcome')}"><a ng-href="#/welcome">על הפרוייקט</a></li>
-                <li role="presentation" ng-class="{active: (curRoute=='about-us')}"><a ng-href="#/about-us">עלינו</a></li>
+                <!--<li role="presentation" ng-class="{active: (curRoute=='about-us')}"><a ng-href="#/about-us">עלינו</a></li>-->
             </ul>
         </div>
         <div class="container container-inner {{bodyClass}} {{bodyBg}}" ng-animate ng-view="">
