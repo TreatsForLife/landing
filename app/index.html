@@ -14,15 +14,26 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+      <link rel="stylesheet" href="styles/reset.css">
+      <link rel="stylesheet" href="styles/root.css">
+      <link rel="stylesheet" href="styles/welcome.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="landingApp">
+  <body ng-app="landingApp" ng-controller="RootCtrl">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->
+    <div class="not-online" ng-if="!(notOnlineAnimationCompleted && online)" ng-style="{'padding-top':(((windowHeight-370)/2)+'px')}">
+        <div class="not-online-logo animated ng-hide" ng-show="logoAnimationComplete" ></div>
+        <div class="not-online-logo not-online-logo-animation" ng-show="!logoAnimationComplete" ></div>
+    </div>
+
+    <div class="container-wrapper" style="padding: 0">
+        <div class="container {{bodyBg}}" style="height: auto;" ng-view="" >
+        </div>
+    </div>
     <div class="container" ng-view=""></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -65,8 +76,10 @@
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/services/utils.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/root.js"></script>
+    <script src="scripts/controllers/welcome.js"></script>
         <!-- endbuild -->
 </body>
 </html>
