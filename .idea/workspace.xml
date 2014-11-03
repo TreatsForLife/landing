@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1193187-701b-4bc2-9823-b9080d52a85c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/root.scss" afterPath="$PROJECT_DIR$/app/styles/root.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
     </list>
     <ignored path="landing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,8 +123,8 @@
             <state vertical-scroll-proportion="-12.666667" vertical-offset="432" max-vertical-offset="1962">
               <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
               <folding>
-                <marker date="1414996802547" expanded="true" signature="1111:1264" placeholder="..." />
-                <marker date="1414996802547" expanded="true" signature="1204:1232" placeholder="..." />
+                <marker date="1414997891211" expanded="true" signature="1111:1264" placeholder="..." />
+                <marker date="1414997891211" expanded="true" signature="1204:1232" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -605,8 +604,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1962">
           <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
           <folding>
-            <marker date="1414996802547" expanded="true" signature="1111:1264" placeholder="..." />
-            <marker date="1414996802547" expanded="true" signature="1204:1232" placeholder="..." />
+            <marker date="1414997891211" expanded="true" signature="1111:1264" placeholder="..." />
+            <marker date="1414997891211" expanded="true" signature="1204:1232" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -690,8 +689,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1962">
           <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
           <folding>
-            <marker date="1414996802547" expanded="true" signature="1111:1264" placeholder="..." />
-            <marker date="1414996802547" expanded="true" signature="1204:1232" placeholder="..." />
+            <marker date="1414997891211" expanded="true" signature="1111:1264" placeholder="..." />
+            <marker date="1414997891211" expanded="true" signature="1204:1232" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -940,8 +939,8 @@
         <state vertical-scroll-proportion="-12.666667" vertical-offset="432" max-vertical-offset="1962">
           <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
           <folding>
-            <marker date="1414996802547" expanded="true" signature="1111:1264" placeholder="..." />
-            <marker date="1414996802547" expanded="true" signature="1204:1232" placeholder="..." />
+            <marker date="1414997891211" expanded="true" signature="1111:1264" placeholder="..." />
+            <marker date="1414997891211" expanded="true" signature="1204:1232" placeholder="..." />
           </folding>
         </state>
       </provider>
