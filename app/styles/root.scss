@@ -5,11 +5,11 @@ body, html {
   min-height: 100%;
   height: 100%;
   padding: 0;
-  background: transparent;
   font-family: verdana, arial, helvetica, sans-serif;
   position: relative;
   margin: 0 auto;
   overflow: hidden;
+  background: $scheme-green;
 }
 
 
@@ -18,7 +18,6 @@ body, html {
   overflow: hidden;
   position: relative;
   font-family: $font-alef;
-  background-color: $scheme-green;
   margin-left: 50%;
   width: 50%;
 }
@@ -51,7 +50,6 @@ body, html {
     height:100%;
     width: 100%;
     direction: rtl;
-    max-width: 600px;
     margin: auto;
     float: none;
     font-family: $font-alef;
@@ -67,11 +65,8 @@ body, html {
     }
 
   }
-
-
-  animation-duration: 1.2s !important;
-  -webkit-animation-duration: 1.2s !important;
 }
+
 
 .page {
   overflow: hidden;
@@ -99,8 +94,7 @@ body, html {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: $scheme-green;
-  z-index: 99999999;
+  z-index: 0;
   transition: width 1s ease;
 
   .not-online-logo{
@@ -131,11 +125,36 @@ body, html {
       opacity: 1;
     }
     img{
-      height: 60px;
+      width: 40%;
     }
   }
 }
 
+//Responsive
+@media screen and (max-width: 800px) {
+  body, html {
+    overflow-x: scroll;
+  }
+  .container-wrapper {
+    margin-left: 90%;
+    width: 100%;
+  }
+
+  .not-online {
+    &.aside{
+      width: 100%;
+      float: left;
+      overflow: hidden;
+    }
+
+  }
+}
+
+
+
+
+
+//General styles
 .rtl {
   direction: rtl;
   //  font-family: Alef;
@@ -296,6 +315,8 @@ button, a.button, input[type="submit"] {
     }
   }
 }
+
+
 
 //animations
 
