@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1193187-701b-4bc2-9823-b9080d52a85c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/favicon.ico" afterPath="$PROJECT_DIR$/app/favicon.ico" />
     </list>
     <ignored path="landing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,8 +123,8 @@
             <state vertical-scroll-proportion="-12.666667" vertical-offset="432" max-vertical-offset="1962">
               <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
               <folding>
-                <marker date="1414997891211" expanded="true" signature="1111:1264" placeholder="..." />
-                <marker date="1414997891211" expanded="true" signature="1204:1232" placeholder="..." />
+                <marker date="1415003985439" expanded="true" signature="1111:1264" placeholder="..." />
+                <marker date="1415003985439" expanded="true" signature="1204:1232" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -185,7 +185,7 @@
     <initial>false</initial>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
+    <option name="x" value="3350" />
     <option name="y" value="-4" />
     <option name="width" value="1857" />
     <option name="height" value="1205" />
@@ -399,6 +399,7 @@
       <recent name="$PROJECT_DIR$/app/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/styles" />
     </key>
   </component>
@@ -484,7 +485,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1857" height="1205" extended-state="6" />
+    <frame x="3350" y="-4" width="1857" height="1205" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -493,7 +494,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35323384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35323384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5975232" sideWeight="0.5003984" order="9" side_tool="true" content_ui="tabs" />
@@ -604,8 +605,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1962">
           <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
           <folding>
-            <marker date="1414997891211" expanded="true" signature="1111:1264" placeholder="..." />
-            <marker date="1414997891211" expanded="true" signature="1204:1232" placeholder="..." />
+            <marker date="1415003985439" expanded="true" signature="1111:1264" placeholder="..." />
+            <marker date="1415003985439" expanded="true" signature="1204:1232" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -689,8 +690,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1962">
           <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
           <folding>
-            <marker date="1414997891211" expanded="true" signature="1111:1264" placeholder="..." />
-            <marker date="1414997891211" expanded="true" signature="1204:1232" placeholder="..." />
+            <marker date="1415003985439" expanded="true" signature="1111:1264" placeholder="..." />
+            <marker date="1415003985439" expanded="true" signature="1204:1232" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -939,8 +940,8 @@
         <state vertical-scroll-proportion="-12.666667" vertical-offset="432" max-vertical-offset="1962">
           <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
           <folding>
-            <marker date="1414997891211" expanded="true" signature="1111:1264" placeholder="..." />
-            <marker date="1414997891211" expanded="true" signature="1204:1232" placeholder="..." />
+            <marker date="1415003985439" expanded="true" signature="1111:1264" placeholder="..." />
+            <marker date="1415003985439" expanded="true" signature="1204:1232" placeholder="..." />
           </folding>
         </state>
       </provider>
