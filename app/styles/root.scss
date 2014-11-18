@@ -9,45 +9,61 @@ body, html {
   position: relative;
   margin: 0 auto;
   overflow: hidden;
-  background: $scheme-green;
-}
+  background: #888;
 
+}
 
 .container-wrapper {
   height: 100%;
   overflow: hidden;
   position: relative;
   font-family: $font-alef;
-  margin-left: 50%;
-  width: 50%;
+  margin: auto;
+  width: 100%;
+  max-height: 600px;
+  max-width: 800px;
+  box-sizing: content-box;
+  padding: 20px;
+  border: 1px solid #111;
+  border-radius: 5px;
+  background: $scheme-green;
 }
 
 .container {
   min-height: 100%;
   height: 100%;
-  width: 100%;
+  width: 50%;
   position: relative;
-  float: left;
+  float: right;
   padding: 20px;
   padding-top: 57px;
   box-sizing: border-box;
 
-  .container-tabs{
+  .container-tabs {
     position: absolute;
     top: 0;
     right: 20px;
     padding: 20px;
     z-index: 9;
-
+    .nav-tabs {
+      border: none;
+    }
+    li a {
+      border-color: #111 #111 transparent #111;
+      line-height: 16px;
+      &:hover {
+        border-color: #111 #111 transparent #111;
+      }
+    }
   }
 
-  .container-inner{
+  .container-inner {
     border: 1px solid #111;
     border-radius: 5px;
     background: #fefefe;
     color: #333;
     padding: 15px;
-    height:100%;
+    height: 100%;
     width: 100%;
     direction: rtl;
     margin: auto;
@@ -66,7 +82,6 @@ body, html {
 
   }
 }
-
 
 .page {
   overflow: hidden;
@@ -91,68 +106,87 @@ body, html {
 
 .not-online {
   text-align: center;
-  position: fixed;
+  position: relative;
   width: 100%;
   height: 100%;
   z-index: 0;
   transition: width 1s ease;
+  float: left;
 
-  .not-online-logo{
-    height:370px;
-    width:266px;
+  .not-online-logo {
+    height: 370px;
+    width: 266px;
     background-image: image-url('animated-logo-loop.gif');
     background-repeat: no-repeat;
-    margin:auto;
+    margin: auto;
   }
-  .not-online-logo-animation{
+  .not-online-logo-animation {
     background-image: image-url('animated-logo.png');
   }
 
-  &.aside{
+  &.aside {
     width: 50%;
-    float: left;
-    overflow: hidden;
   }
 
-  .download{
+  .download {
     transition: all 1s ease;
     position: absolute;
     bottom: 30px;
-    left:0;
+    left: 0;
     width: 100%;
     opacity: 0;
-    &.active{
+    &.active {
       opacity: 1;
     }
-    img{
+    img {
       width: 40%;
+      max-width: 150px;
     }
   }
 }
 
 //Responsive
 @media screen and (max-width: 800px) {
-  body, html {
-    overflow-x: scroll;
+  body {
+    overflow: hidden  ;
+    background: $scheme-green;
   }
   .container-wrapper {
-    margin-left: 90%;
+    max-height: none;
+    max-width: none;
+    padding: 0;
+    margin: 0 !important;
+    border: none;
+    border-radius: 0;
+    height: 100% !important ;
+  }
+  .container {
     width: 100%;
+    height: 100%;
+    padding-bottom: 80px;
   }
 
   .not-online {
-    &.aside{
+    &.aside {
+      padding: 0 !important;
+      height: auto;
+      min-height: 0;
       width: 100%;
-      float: left;
       overflow: hidden;
+      position: absolute;
+      bottom: 17px;
+      .not-online-logo {
+        display: none;
+      }
+    }
+    .download {
+      height: 60px;
+      top: 15px;
+      position: relative;
     }
 
   }
 }
-
-
-
-
 
 //General styles
 .rtl {
@@ -173,10 +207,10 @@ body, html {
   width: 100%;
   font-size: 60px;
   line-height: 60px;
-  top:100px;
+  top: 100px;
   left: 0;
   text-align: center;
-  color:#111;
+  color: #111;
 }
 
 i {
@@ -315,8 +349,6 @@ button, a.button, input[type="submit"] {
     }
   }
 }
-
-
 
 //animations
 
