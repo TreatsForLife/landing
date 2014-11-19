@@ -9,7 +9,8 @@ body, html {
   position: relative;
   margin: 0 auto;
   overflow: hidden;
-  background: #888;
+//  background: #888;
+  background: #a0a1a2 url(//d36xtkk24g8jdx.cloudfront.net/bluebar/72684ab/images/shared/noise-2.png);
 
 }
 
@@ -28,6 +29,7 @@ body, html {
   border: 1px solid #111;
   border-radius: 5px;
   background: $scheme-green;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .container {
@@ -161,6 +163,7 @@ body, html {
     border: none;
     border-radius: 0;
     height: 100% !important ;
+    box-shadow: none;
   }
   .container {
     width: 100%;
