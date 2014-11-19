@@ -38,14 +38,14 @@
 <!-- Add your site or application content here -->
 
 <div class="container-wrapper" ng-style="{'margin-top':(((windowHeight-containerWrapperHeight)/2)+'px')}" ng-cloak>
-  <div class="container {{bodyBg}}" ng-show="(logoAnimationCompleteDelayedPlus)">
+  <div class="container {{bodyBg}}" ng-show="(logoAnimationCompleteDelayedPlus)" ng-cloak>
     <div class="container-tabs">
       <ul class="nav nav-tabs" role="tablist">
         <li role="presentation" ng-class="{active: (curRoute=='welcome')}"><a ng-href="#/welcome">על הפרוייקט</a></li>
         <!--<li role="presentation" ng-class="{active: (curRoute=='about-us')}"><a ng-href="#/about-us">עלינו</a></li>-->
       </ul>
     </div>
-    <div class="container container-inner {{bodyClass}} {{bodyBg}}" ng-animate ng-view="">
+    <div class="container container-inner {{bodyClass}} {{bodyBg}}" ng-animate ng-view="" ng-cloak>
     </div>
   </div>
   <div class="not-online" ng-class="{aside: (logoAnimationCompleteDelayed)}"
