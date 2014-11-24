@@ -167,8 +167,8 @@ module.exports = function (grunt) {
         importPath: '<%= yeoman.app %>/bower_components',
         httpImagesPath: '/images',
         httpGeneratedImagesPath: '/images/generated',
-        httpFontsPath: '/images/fonts',
-        relativeAssets: false,
+        httpFontsPath: '/styles/fonts',
+        relativeAssets: true,
         assetCacheBuster: false,
         raw: 'Sass::Script::Number.precision = 10\n'
       },
