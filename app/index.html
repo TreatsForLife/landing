@@ -19,8 +19,8 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
-  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css"/>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
   <!-- endbower -->
   <!-- endbuild -->
   <!-- build:css({.tmp,app}) styles/main.css -->
@@ -37,7 +37,8 @@
 
 <!-- Add your site or application content here -->
 
-<div class="container-wrapper transparent" ng-style="{'margin-top':(((windowHeight-containerWrapperHeight)/2)+'px')}" ng-class="{opaque: siteIsReady}" ng-cloak>
+<div class="container-wrapper transparent" ng-style="{'margin-top':(((windowHeight-containerWrapperHeight)/2)+'px')}"
+     ng-class="{opaque: siteIsReady}" ng-cloak>
   <div class="container {{bodyBg}} ng-hide" ng-show="(logoAnimationCompleteDelayedPlus)" ng-cloak>
     <div class="container-tabs">
       <ul class="nav nav-tabs" role="tablist">
@@ -54,7 +55,8 @@
     <div class="not-online-logo not-online-logo-animation" ng-show="!logoAnimationComplete"></div>
 
     <div class="download" ng-class="{active: logoAnimationCompleteDelayed}" ng-cloak>
-      <a class="disabled" title="iOS App Coming Soon..."><!-- href="https://play.google.com/store/apps/details?id=org.treatsforlife.app&hl=en" target="_blank">--><img
+      <a class="disabled" title="iOS App Coming Soon...">
+        <!-- href="https://play.google.com/store/apps/details?id=org.treatsforlife.app&hl=en" target="_blank">--><img
         src="images/appstore.png"/></a>
       <a href="https://play.google.com/store/apps/details?id=org.treatsforlife.app&hl=en" target="_blank"><img
         src="images/googleplay.png"/></a>
@@ -79,8 +81,9 @@
     m.parentNode.insertBefore(a, m)
   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-57037785-1');
+  ga('create', 'UA-57037785-1', 'auto');
   ga('send', 'pageview');
+
 </script>
 
 <!--[if lt IE 9]>
