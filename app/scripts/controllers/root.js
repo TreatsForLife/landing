@@ -8,6 +8,7 @@ angular.module('landingApp')
     //Global scope vars
     $rootScope.isWeb = $(window).width() > 700;
     $rootScope.isIphone = (navigator.userAgent.indexOf('iPhone') > 0);
+    $rootScope.curLang = 'hebrew';
 
 
     //get localstorage data
@@ -72,6 +73,21 @@ angular.module('landingApp')
     $timeout(function () {
       $scope.animateSplashScreen();
     }, 1500);
+
+    $scope.isHeb = function(){
+      return $scope.curLang == 'hebrew';
+    }
+    $scope.isEng = function(){
+      return $scope.curLang == 'english';
+    }
+
+    $scope.toggleLang = function(){
+      if ($rootScope.curLang == 'hebrew') {
+        $rootScope.curLang = 'english';
+      }else{
+        $rootScope.curLang = 'hebrew';
+      }
+    }
 
     //app init
     function init() {

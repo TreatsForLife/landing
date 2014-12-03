@@ -57,12 +57,12 @@
   <div class="container {{bodyBg}} ng-hide" ng-show="(logoAnimationCompleteDelayedPlus)" ng-cloak>
     <div class="container-tabs">
       <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="seethrough"><a ng-click="toggleLang()"><img ng-src="images/{{curLang}}.png"></a></li>
-        <li role="presentation" ng-class="{active: (curRoute=='welcome')}"><a ng-href="#/welcome">על הפרוייקט</a></li>
         <!--<li role="presentation" ng-class="{active: (curRoute=='about-us')}"><a ng-href="#/about-us">עלינו</a></li>-->
+        <li role="presentation" ng-class="{active: (curRoute=='welcome')}"><a ng-href="#/welcome">{{isHeb() ? 'על הפרוייקט' : 'About'}}</a></li>
+        <li role="presentation" class="seethrough"><a ng-click="toggleLang()"><img ng-src="images/{{curLang}}.jpg"></a></li>
       </ul>
     </div>
-    <div class="container container-inner {{bodyClass}} {{bodyBg}}" ng-animate ng-view="" ng-cloak>
+    <div class="container container-inner {{curLang}} {{bodyClass}} {{bodyBg}}" ng-animate ng-view="" ng-cloak>
     </div>
   </div>
   <div class="not-online" ng-class="{aside: (logoAnimationCompleteDelayed)}"

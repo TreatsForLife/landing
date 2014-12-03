@@ -69,7 +69,6 @@ body, html {
     padding: 15px;
     height: 100%;
     width: 100%;
-    direction: rtl;
     margin: auto;
     float: none;
     font-family: $font-alef;
@@ -103,7 +102,6 @@ body, html {
   display: block;
   width: 100%;
   padding: 24px 20px 0;
-  direction: rtl;
   color: white;
   text-align: center;
 }
@@ -155,6 +153,21 @@ body, html {
   }
 }
 
+li.seethrough{
+  background: transparent !important;
+  border-color: transparent !important;
+  a{
+    background: transparent !important;
+    border-color: transparent !important;
+    padding: 7px 0 5px 5px;
+    margin-right: -19px;
+    img{
+      height:22px;
+      border-radius: 4px;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+  }
+}
 //Responsive
 @media screen and (max-width: 800px) {
   body {
@@ -200,13 +213,11 @@ body, html {
 }
 
 //General styles
-.rtl {
+.rtl, .right, .hebrew{
   direction: rtl;
-  //  font-family: Alef;
 }
-
-.right {
-  direction: rtl;
+.ltr, .left, .english{
+  direction: ltr;
 }
 
 .clear {
