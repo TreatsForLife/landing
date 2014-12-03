@@ -57,6 +57,7 @@
   <div class="container {{bodyBg}} ng-hide" ng-show="(logoAnimationCompleteDelayedPlus)" ng-cloak>
     <div class="container-tabs">
       <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="seethrough"><a ng-click="toggleLang()"><img ng-src="images/{{curLang}}.png"></a></li>
         <li role="presentation" ng-class="{active: (curRoute=='welcome')}"><a ng-href="#/welcome">על הפרוייקט</a></li>
         <!--<li role="presentation" ng-class="{active: (curRoute=='about-us')}"><a ng-href="#/about-us">עלינו</a></li>-->
       </ul>
