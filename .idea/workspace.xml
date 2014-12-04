@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1193187-701b-4bc2-9823-b9080d52a85c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/app/bower_components/font-awesome/css/font-awesome.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="landing.iws" />
@@ -40,8 +41,18 @@
       <file leaf-file-name="_consts.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/_consts.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.296296" vertical-offset="145" max-vertical-offset="864">
+            <state vertical-scroll-proportion="-18.666666" vertical-offset="0" max-vertical-offset="864">
               <caret line="28" column="12" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/font-awesome/css/font-awesome.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22100955" vertical-offset="0" max-vertical-offset="30204">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +74,8 @@
             <state vertical-scroll-proportion="-11.481482" vertical-offset="806" max-vertical-offset="2178">
               <caret line="62" column="115" selection-start-line="62" selection-start-column="113" selection-end-line="62" selection-end-column="115" />
               <folding>
-                <marker date="1417692725236" expanded="true" signature="2310:2461" placeholder="..." />
-                <marker date="1417692725236" expanded="true" signature="2403:2429" placeholder="..." />
+                <marker date="1417704633440" expanded="true" signature="2310:2461" placeholder="..." />
+                <marker date="1417704633440" expanded="true" signature="2403:2429" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -100,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about-us.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about-us.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/about-us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76487255" vertical-offset="0" max-vertical-offset="706">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="648">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -195,6 +206,7 @@
         <option value="$PROJECT_DIR$/app/views/contact.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/root.scss" />
+        <option value="$PROJECT_DIR$/app/bower_components/font-awesome/css/font-awesome.css" />
       </list>
     </option>
   </component>
@@ -210,7 +222,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3905" />
+    <option name="x" value="65" />
     <option name="y" value="-4" />
     <option name="width" value="1855" />
     <option name="height" value="1204" />
@@ -479,8 +491,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3905" y="-4" width="1855" height="1204" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="-4" width="1855" height="1204" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7713987" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -547,13 +559,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="576">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="594">
@@ -595,8 +600,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1962">
           <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
           <folding>
-            <marker date="1417692725236" expanded="true" signature="2310:2461" placeholder="..." />
-            <marker date="1417692725236" expanded="true" signature="2403:2429" placeholder="..." />
+            <marker date="1417704633440" expanded="true" signature="2310:2461" placeholder="..." />
+            <marker date="1417704633440" expanded="true" signature="2403:2429" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -664,8 +669,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1962">
           <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
           <folding>
-            <marker date="1417692725236" expanded="true" signature="2310:2461" placeholder="..." />
-            <marker date="1417692725236" expanded="true" signature="2403:2429" placeholder="..." />
+            <marker date="1417704633440" expanded="true" signature="2310:2461" placeholder="..." />
+            <marker date="1417704633440" expanded="true" signature="2403:2429" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -851,14 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/_consts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.296296" vertical-offset="145" max-vertical-offset="864">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
@@ -912,8 +909,8 @@
         <state vertical-scroll-proportion="-11.481482" vertical-offset="806" max-vertical-offset="2178">
           <caret line="62" column="115" selection-start-line="62" selection-start-column="113" selection-end-line="62" selection-end-column="115" />
           <folding>
-            <marker date="1417692725236" expanded="true" signature="2310:2461" placeholder="..." />
-            <marker date="1417692725236" expanded="true" signature="2403:2429" placeholder="..." />
+            <marker date="1417704633440" expanded="true" signature="2310:2461" placeholder="..." />
+            <marker date="1417704633440" expanded="true" signature="2403:2429" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -928,8 +925,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/about-us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76487255" vertical-offset="0" max-vertical-offset="706">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="648">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/_consts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.666666" vertical-offset="0" max-vertical-offset="864">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22100955" vertical-offset="0" max-vertical-offset="30204">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
