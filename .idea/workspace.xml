@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1193187-701b-4bc2-9823-b9080d52a85c" name="Default" comment="" />
+    <list default="true" id="f1193187-701b-4bc2-9823-b9080d52a85c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/about-us.html" afterPath="$PROJECT_DIR$/app/views/about-us.html" />
+    </list>
     <ignored path="landing.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -45,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/bower_components/font-awesome/css/font-awesome.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22100955" vertical-offset="0" max-vertical-offset="30204">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="30204">
               <caret line="9" column="297" selection-start-line="9" selection-start-column="297" selection-end-line="9" selection-end-column="297" />
               <folding />
             </state>
@@ -108,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about-us.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about-us.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/about-us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="648">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.9490085" vertical-offset="284" max-vertical-offset="1080">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -197,13 +199,13 @@
         <option value="$PROJECT_DIR$/app/scripts/controllers/welcome.js" />
         <option value="$PROJECT_DIR$/app/styles/_consts.scss" />
         <option value="$PROJECT_DIR$/app/styles/about-us.scss" />
-        <option value="$PROJECT_DIR$/app/views/about-us.html" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/contact.js" />
         <option value="$PROJECT_DIR$/app/views/contact.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/root.scss" />
         <option value="$PROJECT_DIR$/app/bower_components/font-awesome/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/app/views/about-us.html" />
       </list>
     </option>
   </component>
@@ -219,7 +221,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3905" />
+    <option name="x" value="65" />
     <option name="y" value="-4" />
     <option name="width" value="1855" />
     <option name="height" value="1204" />
@@ -572,7 +574,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3905" y="-4" width="1855" height="1204" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1204" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -988,14 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/about-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="648">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/root.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="888" max-vertical-offset="2106">
@@ -1022,8 +1016,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/bower_components/font-awesome/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22100955" vertical-offset="0" max-vertical-offset="30204">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="30204">
           <caret line="9" column="297" selection-start-line="9" selection-start-column="297" selection-end-line="9" selection-end-column="297" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/about-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9490085" vertical-offset="284" max-vertical-offset="1080">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
