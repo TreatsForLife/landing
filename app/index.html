@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/root.css">
   <link rel="stylesheet" href="styles/welcome.css">
+  <link rel="stylesheet" href="styles/about-us.css">
   <!-- endbuild -->
 
   <script>
@@ -55,11 +56,12 @@
 <div class="container-wrapper transparent" ng-style="{'margin-top':(((windowHeight-containerWrapperHeight)/2)+'px')}"
      ng-class="{opaque: siteIsReady}" ng-cloak>
   <div class="container {{bodyBg}} ng-hide" ng-show="(logoAnimationCompleteDelayedPlus)" ng-cloak>
+    <a class="switchlang" ng-click="toggleLang()"><img ng-src="images/{{curLang}}.jpg"></a>
     <div class="container-tabs">
       <ul class="nav nav-tabs" role="tablist">
-        <!--<li role="presentation" ng-class="{active: (curRoute=='about-us')}"><a ng-href="#/about-us">עלינו</a></li>-->
-        <li role="presentation" ng-class="{active: (curRoute=='welcome')}"><a ng-href="#/welcome">{{isHeb() ? 'על הפרוייקט' : 'About'}}</a></li>
-        <li role="presentation" class="seethrough"><a ng-click="toggleLang()"><img ng-src="images/{{curLang}}.jpg"></a></li>
+        <li role="presentation" ng-class="{active: (curRoute=='contact')}"><a ng-href="#/contact">{{isHeb() ? 'צור קשר' : 'Contact Us'}}</a></li>
+        <li role="presentation" ng-class="{active: (curRoute=='about-us')}"><a ng-href="#/about-us">{{isHeb() ? 'על הצוות' : 'The Team'}}</a></li>
+        <li role="presentation" ng-class="{active: (curRoute=='welcome')}"><a ng-href="#/welcome">{{isHeb() ? 'על הפרוייקט' : 'The Project'}}</a></li>
       </ul>
     </div>
     <div class="container container-inner {{curLang}} {{bodyClass}} {{bodyBg}}" ng-animate ng-view="" ng-cloak>
@@ -107,6 +109,7 @@
 <script src="scripts/controllers/root.js"></script>
 <script src="scripts/controllers/welcome.js"></script>
 <script src="scripts/controllers/about-us.js"></script>
+<script src="scripts/controllers/contact.js"></script>
 <!-- endbuild -->
 </body>
 </html>

@@ -9,7 +9,7 @@ body, html {
   position: relative;
   margin: 0 auto;
   overflow: hidden;
-//  background: #888;
+  //  background: #888;
   background: #c0c1c2 url(//d36xtkk24g8jdx.cloudfront.net/bluebar/72684ab/images/shared/noise-2.png);
 
 }
@@ -22,14 +22,14 @@ body, html {
   font-family: $font-alef;
   margin: auto;
   width: 100%;
-  max-height: 600px;
-  max-width: 800px;
+  max-height: 700px;
+  max-width: 1000px;
   box-sizing: content-box;
   padding: 20px;
   border: 1px solid #111;
   border-radius: 5px;
   background: $scheme-green;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .container {
@@ -52,12 +52,48 @@ body, html {
     .nav-tabs {
       border: none;
     }
-    li a {
-      border-color: #111 #111 transparent #111;
-      line-height: 16px;
-      &:hover {
+    li {
+      a {
+        border-color: #111;
+        line-height: 16px;
+        background: #fff;
+        color: #333 !important;
+        padding: 10px 8px;
+        font-size: 13px;
+        &:hover {
+          color: #111 !important;
+        }
+      }
+      &.active a {
+        color: #111 !important;
         border-color: #111 #111 transparent #111;
       }
+    }
+  }
+  li.seethrough {
+    background: transparent !important;
+    border-color: transparent !important;
+    a {
+      background: transparent !important;
+      border-color: transparent !important;
+      padding: 7px 0 5px 5px;
+      margin-right: -19px;
+      img {
+        height: 22px;
+        border-radius: 2px;
+        border: 1px solid rgba(0,0,0, 0.7);
+      }
+    }
+  }
+
+  .switchlang{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    img{
+      border: 1px solid #111;
+      border-radius: 2px;
     }
   }
 
@@ -140,8 +176,8 @@ body, html {
     &.active {
       opacity: 1;
     }
-    a{
-      &.disabled{
+    a {
+      &.disabled {
         opacity: 0.5;
         cursor: default;
       }
@@ -153,26 +189,19 @@ body, html {
   }
 }
 
-li.seethrough{
-  background: transparent !important;
-  border-color: transparent !important;
-  a{
-    background: transparent !important;
-    border-color: transparent !important;
-    padding: 7px 0 5px 5px;
-    margin-right: -19px;
-    img{
-      height:22px;
-      border-radius: 4px;
-      border: 1px solid rgba(255,255,255,0.2);
-    }
-  }
-}
 //Responsive
 @media screen and (max-width: 800px) {
   body {
-    overflow: hidden  ;
+    overflow: hidden;
     background: $scheme-green;
+  }
+  .container .switchlang{
+    position: absolute;
+    top: 0;
+    right: 0;
+    img{
+      width: 30px;
+    }
   }
   .container-wrapper {
     max-height: none;
@@ -181,7 +210,7 @@ li.seethrough{
     margin: 0 !important;
     border: none;
     border-radius: 0;
-    height: 100% !important ;
+    height: 100% !important;
     box-shadow: none;
   }
   .container {
@@ -213,22 +242,26 @@ li.seethrough{
 }
 
 //General styles
-.rtl, .right, .hebrew{
+.rtl, .right, .hebrew {
   direction: rtl;
 }
-.ltr, .left, .english{
+
+.ltr, .left, .english {
   direction: ltr;
 }
 
 .clear {
   clear: both;
 }
-.transparent{
+
+.transparent {
   opacity: 0;
 }
-.opaque{
+
+.opaque {
   opacity: 1;
 }
+
 .loading {
   position: fixed;
   width: 100%;
@@ -282,6 +315,26 @@ i {
 
 .color-facebook {
   color: #3b5998 !important;
+}
+
+i.facebook {
+  color: $facebook;
+}
+
+i.vimeo {
+  color: $Vimeo-green;
+}
+
+i.tumblr {
+  color: $Tumblr;
+}
+
+i.linkedin {
+  color: $Linkedin;
+}
+
+i.mail {
+  color: #333;
 }
 
 .blacknwhite {

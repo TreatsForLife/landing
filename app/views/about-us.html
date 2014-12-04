@@ -1,1 +1,30 @@
-<p></p>
+<div>
+  <h1>
+
+  </h1>
+
+  <div class="aboutus-person" ng-class="(isHeb() ? 'heb' : 'eng')">
+    <div class="person-image">
+      <img src="http://graph.facebook.com/guysopher/picture?type=large" class=""/>
+      <a href="mailto:guysopher@gmail.com" target="_blank" title="GuySopher@Gmail.com"><i class="fa fa-envelope-square mail"></i></a>
+      <a href="http://www.facebook.com/guysopher" target="_blank"><i class="fa fa-facebook-square facebook"></i></a>
+      <a href="il.linkedin.com/in/guysopher/" target="_blank"><i class="fa fa-linkedin-square linkedin"></i></a>
+    </div>
+
+    <div class="person-info" ng-show="isHeb()">
+      גיא סופר, 33, תל אביב
+      <br/>
+      סטארטפיסט מושבע, מייקר ומפתח ותיק בתחום הווב והמובייל.
+      <br/>
+      מתמחה בפיתוח מוצרים מאפס, בדגש על עיצוב, שימושיות והרבה כיף!
+    </div>
+    <div class="person-info" ng-show="isEng()">
+      Guy Sopher, 33, Tel Aviv
+      <br/>
+      An enthusiastic entrepreneur, maker and a veteran web & mobile developer
+      <br/>
+      Specializes in bootstrapping and developing new products focusing on design, usability and lots of fun!
+    </div>
+  </div>
+
+</div>
