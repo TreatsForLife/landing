@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1193187-701b-4bc2-9823-b9080d52a85c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/_consts.scss" afterPath="$PROJECT_DIR$/app/styles/_consts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Alef-bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Alef-bold.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Alef-bold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Alef-bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Alef-bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Alef-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Alef-regular.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Alef-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Alef-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Alef-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/animated-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/welcome_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/vendor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/about-us.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/contact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/welcome.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="landing.iws" />
@@ -75,8 +102,8 @@
             <state vertical-scroll-proportion="0.5801217" vertical-offset="274" max-vertical-offset="2214">
               <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
-                <marker date="1419152268591" expanded="true" signature="2733:2884" placeholder="..." />
-                <marker date="1419152268591" expanded="true" signature="2826:2852" placeholder="..." />
+                <marker date="1419153693247" expanded="true" signature="2733:2884" placeholder="..." />
+                <marker date="1419153693247" expanded="true" signature="2826:2852" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -700,8 +727,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1962">
           <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
           <folding>
-            <marker date="1419152268591" expanded="true" signature="2733:2884" placeholder="..." />
-            <marker date="1419152268591" expanded="true" signature="2826:2852" placeholder="..." />
+            <marker date="1419153693247" expanded="true" signature="2733:2884" placeholder="..." />
+            <marker date="1419153693247" expanded="true" signature="2826:2852" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -769,8 +796,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1962">
           <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
           <folding>
-            <marker date="1419152268591" expanded="true" signature="2733:2884" placeholder="..." />
-            <marker date="1419152268591" expanded="true" signature="2826:2852" placeholder="..." />
+            <marker date="1419153693247" expanded="true" signature="2733:2884" placeholder="..." />
+            <marker date="1419153693247" expanded="true" signature="2826:2852" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1042,8 +1069,8 @@
         <state vertical-scroll-proportion="0.5801217" vertical-offset="274" max-vertical-offset="2214">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
-            <marker date="1419152268591" expanded="true" signature="2733:2884" placeholder="..." />
-            <marker date="1419152268591" expanded="true" signature="2826:2852" placeholder="..." />
+            <marker date="1419153693247" expanded="true" signature="2733:2884" placeholder="..." />
+            <marker date="1419153693247" expanded="true" signature="2826:2852" placeholder="..." />
           </folding>
         </state>
       </provider>
